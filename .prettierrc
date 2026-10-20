@@ -1,0 +1,19 @@
+{
+  "semi": true,
+  "trailingComma": "none",
+  "singleQuote": true,
+  "plugins": ["@trivago/prettier-plugin-sort-imports"],
+  "importOrder": [
+    "pages/(.*)$",
+    "@chainlit/(.*)$",
+    "components/(.*)$",
+    "assets/(.*)$",
+    "hooks/(.*)$",
+    "state/(.*)$",
+    "types/(.*)$",
+    "^./*.*.css",
+    "^[./]"
+  ],
+  "importOrderSeparation": true,
+  "importOrderSortSpecifiers": true
+}
